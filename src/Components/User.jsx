@@ -1,7 +1,7 @@
 import Repo from "./Repo";
 import UserDetail from "./UserDetails/UserDetail";
 
-const User = ({ user, repos }) => {
+const User = ({ user, repos}) => {
     if (!user) {
         return (
             <div className="flex flex-col justify-center items-center min-h-[70vh] text-center px-4">
@@ -9,6 +9,7 @@ const User = ({ user, repos }) => {
                 <p className="text-[#E3E2DF] text-sm"> e.g. torvalds, gaearon, sindresorhus </p>
             </div>);
     }
+
     return (
         <div className="flex flex-col justify-center items-center w-full">
             <UserDetail user={user} />
