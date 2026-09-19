@@ -41,18 +41,13 @@ const App = () => {
       setError(error.message);
     }
   };
-  if (error) {
-    return (
-      <div className="flex flex-col justify-center items-center min-h-[70vh] text-center px-4">
-        <h1 className="text-[#888882] text-md mb-2"> Couldn't Find the User </h1>
-      </div>
-    );
-  }
+
   return (
     <div className="bg-[#F7F7F5] min-h-screen geist-pixel">
       <Navbar searchUser={searchUser} loading={loading} />
       <User
         user={user}
+        error={error}
         repos={repos}
       />
     </div>
