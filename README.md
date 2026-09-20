@@ -6,9 +6,8 @@
 
 ## About
 
-**GitFinder** is a lightweight React web application that lets you explore any public GitHub account instantly. Enter a username, hit Search, and get a full snapshot of the user's profile along with their public repositories — all pulled live from the GitHub REST API.
-
-Whether you're vetting an open-source contributor, exploring a developer's work, or just curious about someone's GitHub — GitFinder makes it effortless.
+**GitFinder** is a lightweight React web application that lets you explore any public GitHub account instantly. Enter a username, hit Search, and get a full snapshot of the user's profile along with their public repositories all pulled live from the GitHub REST API.
+Whether you're vetting an open-source contributor, exploring a developer's work, or just curious about someone's GitHub GitFinder makes it effortless.
 
 ---
 
